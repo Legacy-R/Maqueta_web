@@ -1,24 +1,38 @@
 @import "variables";
 
-#hero{
-    background-image: url('../img/header.jpg');
-    background-size: cover;
-    height: 550px;
-
-    .container{
-        background-color: $azul;
-        opacity: 60%;
-        width: 50%;
-        max-width: 500px;
-        height: 550px;
-
-        h1{
-            color: $negro;
-            opacity: 100%;
-        }
-        p{
-            color: $negro;
-            opacity: 100%;
-        }
-    }
+#hero1{
+    height: 500px;
+    min-width: 375px;
+    max-width: 1366px;
 }
+
+#hero2{
+    height: 500px;
+    min-width: 375px;
+    max-width: 1366px;
+}
+
+#hero3{
+    height: 500px;
+    min-width: 375px;
+    max-width: 1366px;
+}
+
+#banner_hero{
+    background-color: $azul_o;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $blanco;
+    top: 0px;
+}
+
+#hero{
+    position: relative;
+}
+
+

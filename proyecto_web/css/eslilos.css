@@ -1,3 +1,11 @@
+#navbar {
+  padding: 0;
+  margin: 0;
+  max-width: 1366px;
+  min-width: 375px;
+  height: 100px;
+}
+
 #hero {
   padding: 0;
   margin: 0;
@@ -54,34 +62,50 @@
   height: 100px;
 }
 
-.hero {
-  background-image: url(../img/hero.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+#hero1 {
+  height: 500px;
+  min-width: 375px;
+  max-width: 1366px;
 }
 
-#sec_1 {
-  background-color: rgba(0, 2, 126, 0.5);
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  text-align: center;
+#hero2 {
+  height: 500px;
+  min-width: 375px;
+  max-width: 1366px;
 }
 
-#sec_2 {
-  background-color: rgba(194, 194, 194, 0.5);
+#hero3 {
+  height: 500px;
+  min-width: 375px;
+  max-width: 1366px;
+}
+
+#banner_hero {
+  background-color: rgba(0, 18, 133, 0.6);
+  position: absolute;
   height: 500px;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #00027e;
+  color: #ffffff;
+  top: 0px;
+}
+
+#hero {
+  position: relative;
+}
+
+#sec_2 {
+  background-color: rgba(156, 156, 156, 0.5);
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #001285;
 }
 
 #sec_3 {
@@ -91,7 +115,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #00027e;
+  color: #001285;
 }
 
 #sec_4 {
@@ -101,7 +125,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #00027e;
+  color: #001285;
 }
 
 .rombo {
@@ -109,7 +133,7 @@
 }
 
 #sec_5 {
-  background-color: #00027e;
+  background-color: #001285;
   height: 500px;
   width: 100%;
   display: flex;
@@ -133,7 +157,7 @@
   width: 50%;
   min-height: 500px;
   position: absolute;
-  background: linear-gradient(90deg, #b3ff00, #ffffff00);
+  background: linear-gradient(90deg, #fbff00, rgba(252, 252, 252, 0));
   opacity: 0.3;
 }
 
@@ -144,7 +168,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  color: #00027e;
+  color: #001285;
 }
 
 #sec_6 {
@@ -154,7 +178,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #00027e;
+  color: #001285;
 }
 
 #sec_7 {
@@ -164,7 +188,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #00027e;
+  color: #001285;
 }
 
 #contacto {
@@ -180,11 +204,11 @@
   width: 100%;
   min-height: 500px;
   position: absolute;
-  background-color: rgba(0, 2, 126, 0.5);
+  background-color: rgba(0, 18, 133, 0.6);
 }
 
 #sec_8 {
-  background-color: rgba(0, 2, 126, 0.5);
+  background-color: rgba(0, 18, 133, 0.6);
   height: 500px;
   width: 100%;
   display: flex;
@@ -202,14 +226,6 @@
   align-items: left;
   justify-content: center;
   color: #ffffff;
-}
-
-.map {
-  font-size: 30px;
-}
-
-.telf {
-  font-size: 30px;
 }
 
 /*# sourceMappingURL=eslilos.css.map */

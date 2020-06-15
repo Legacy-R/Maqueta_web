@@ -1,49 +1,36 @@
-.navbar {
-  background-color: #ffffff;
+#hero1 {
+  height: 500px;
+  min-width: 375px;
+  max-width: 1366px;
 }
 
-.navbar .nav-link {
-  color: #1a1a1a;
+#hero2 {
+  height: 500px;
+  min-width: 375px;
+  max-width: 1366px;
 }
 
-.navbar .nav-link :hover {
-  color: #1a1a1a;
+#hero3 {
+  height: 500px;
+  min-width: 375px;
+  max-width: 1366px;
 }
 
-.navbar .logo {
-  min-width: 100px;
-  max-width: 250;
-}
-
-.navbar .navbar-toggler {
-  font-size: 40px;
-  outline: none;
+#banner_hero {
+  background-color: rgba(0, 18, 133, 0.6);
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  top: 0px;
 }
 
 #hero {
-  background-image: url("../img/header.jpg");
-  background-size: cover;
-  height: 550px;
+  position: relative;
 }
-
-#hero .container {
-  background-color: #5A2CAE;
-  opacity: 60%;
-  width: 50%;
-  max-width: 500px;
-  height: 550px;
-}
-
-#hero .container h1 {
-  color: #1a1a1a;
-  opacity: 100%;
-}
-
-#hero .container p {
-  color: #1a1a1a;
-  opacity: 100%;
-}
-
-/*# sourceMappingURL=estilos.css.map */
 
 /*# sourceMappingURL=estilos.css.map */

@@ -11,38 +11,74 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <title>Proyecto</title>
 </head>
 
 <body>
 
-    <div class="col-sm-12 col-md-12 col-lg-12">
+    <div class="row" id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" width="150" height="75" class="d-inline-block align-top" alt="Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="#">INICIO</a>
-                    <a class="nav-item nav-link" href="#">NOSOSTROS</a>
-                    <a class="nav-item nav-link" href="#">SERVICIOS</a>
-                    <a class="nav-item nav-link" href="#">CONTACTO</a>
-                </div>
+            <div class="col-sm-12 col-md-12 col-lg-12" id="logo">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" width="150" height="75" alt="Logo">
+                </a>
             </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-sm-12 col-md-12 col-lg-12 ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav ml-auto" id="social">
+                                <a class="nav-item nav-link active" href="#"><i class="far fa-envelope-open"></i></a>
+                                <a class="nav-item"><i class="fas fa-grip-lines-vertical"></i></a>
+                                <a class="nav-item nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="nav-item nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbar-nav ml-auto" id="opciones">
+                        <a class="nav-item nav-link active" href="#">INICIO</a>
+                        <a class="nav-item nav-link" href="#">NOSOSTROS</a>
+                        <a class="nav-item nav-link" href="#">SERVICIOS</a>
+                        <a class="nav-item nav-link" href="#">CONTACTO</a>
+                    </div>
+                </div>
         </nav>
     </div>
-    <div class="row" id="hero">
-        <section class="hero">
-            <div class="col-sm-12 col-md-6 col-lg-4" id="sec_1">
-                <h1>GRUPO ASESOR</h1>
-                <h4>ASESORÍA LEGAL Y JURÍDICA</h4>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/edificio.png" class="d-block w-100" alt="..." id="hero1">
             </div>
-        </section>
+            <div class="carousel-item">
+                <img src="img/edificio2.png" class="d-block w-100" alt="..." id="hero2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/hero.jpg" class="d-block w-100" alt="..." id="hero3">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+        <div class="col-sm-12 col-md-6 col-lg-4" id="banner_hero">
+            <h1>GRUPO ASESOR</h1>
+            <h4>ASESORÍA LEGAL Y JURÍDICA</h4>
+        </div>
     </div>
 
     <div class="row" id="servicios">
@@ -97,16 +133,16 @@
     <div class="row" id="integrates">
         <div class="container">
             <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6" id="sec_6">
-                <img src="img/persona.jpg" width="300px" alt="persona" class="rombo">
-                <hr>
-                <h4><b>NOMBRE DE PERSONA</b></h4>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6" id="sec_7">
-                <img src="img/persona.jpg" width="300px" alt="persona" class="rombo">
-                <hr>
-                <h4><b>NOMBRE DE PERSONA</b></h4>
-            </div>
+                <div class="col-sm-12 col-md-6 col-lg-6" id="sec_6">
+                    <img src="img/persona.jpg" width="300px" alt="persona" class="rombo">
+                    <hr>
+                    <h4><b>NOMBRE DE PERSONA</b></h4>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6" id="sec_7">
+                    <img src="img/persona.jpg" width="300px" alt="persona" class="rombo">
+                    <hr>
+                    <h4><b>NOMBRE DE PERSONA</b></h4>
+                </div>
             </div>
         </div>
     </div>
@@ -119,18 +155,20 @@
         </div>
         <div class="col-sm-12 col-md-6 col-lg-8 border" id="sec_9">
             <div class="container">
-            <h5>NUESTRA <b>DIRECCIÓN</b></h5>
-            <i class="fas fa-map-marker-alt"></i>
-            <h5>AV. NICOLAS DE ... - 958 - PRIMER PISO <br> (FRENTE A LA PLAZA)</h5>
-            <i class="fas fa-phone-alt"></i>
-            <h5>973 683 893</h5>
-            <i class="fas fa-envelope-open"></i>
-            <h5>algo@algo.com</h5>
-            <i class="fas fa-phone-alt"></i>
-            <h5>973 683 893</h5>
-            <i class="fas fa-envelope-open"></i>
-            <h5>algo@algo.com</h5>
-            <button class="boton"><h2><b>CONTÁCTANOS</b></h2></button>
+                <h5>NUESTRA <b>DIRECCIÓN</b></h5>
+                <i class="fas fa-map-marker-alt"></i>
+                <h5>AV. NICOLAS DE ... - 958 - PRIMER PISO <br> (FRENTE A LA PLAZA)</h5>
+                <i class="fas fa-phone-alt"></i>
+                <h5>973 683 893</h5>
+                <i class="fas fa-envelope-open"></i>
+                <h5>algo@algo.com</h5>
+                <i class="fas fa-phone-alt"></i>
+                <h5>973 683 893</h5>
+                <i class="fas fa-envelope-open"></i>
+                <h5>algo@algo.com</h5>
+                <button class="boton">
+                    <h2><b>CONTÁCTANOS</b></h2>
+                </button>
             </div>
         </div>
     </div>
