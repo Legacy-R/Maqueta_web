@@ -13,42 +13,53 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <title>Proyecto</title>
+
 </head>
 
 <body>
 
-    <div class="row" id="navbar">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="col-sm-12 col-md-12 col-lg-12" id="logo">
-                <a class="navbar-brand" href="#">
-                    <img src="img/logo.png" width="150" height="75" alt="Logo">
-                </a>
-            </div>
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <div class="col-sm-12 col-md-12 col-lg-12 ">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav ml-auto" id="social">
-                                <a class="nav-item nav-link active" href="#"><i class="far fa-envelope-open"></i></a>
-                                <a class="nav-item"><i class="fas fa-grip-lines-vertical"></i></a>
-                                <a class="nav-item nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="nav-item nav-link" href="#"><i class="fab fa-twitter"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="navbar-nav ml-auto" id="opciones">
-                        <a class="nav-item nav-link active" href="#">INICIO</a>
-                        <a class="nav-item nav-link" href="#">NOSOSTROS</a>
-                        <a class="nav-item nav-link" href="#">SERVICIOS</a>
-                        <a class="nav-item nav-link" href="#">CONTACTO</a>
-                    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+                
+                <nav class="navbar navbar-light bg-light">
+                    <a class="navbar-brand" href="#">
+                      <img src="img/logo.png" width="100"class="d-inline-block align-top" alt="" loading="lazy">
+                    </a>
+                  </nav>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse flex-column ml-lg-0 ml-3" id="navbarNav">
+                    <ul class="navbar-nav  flex-row mb-2  ml-auto">
+                        <li class="nav-item">
+                            <h4><a class="nav-link py-1 pr-3" href="#"><i class="far fa-envelope-open"></i></a></h4>
+                        </li>
+                        <div class="vl pr-3" style="border-left: 2px solid gray; height: 35px;"></div>
+                        <li class="nav-item">
+                            <a class="nav-link pr-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pr-3" href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">INICIO</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">NOSOTROS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICIO</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link " href="#">CONTACTO</a>
+                          </li>
+                        
+                    </ul>
                 </div>
         </nav>
-    </div>
+
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -185,6 +196,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
