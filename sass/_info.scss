@@ -1,11 +1,16 @@
-#sec_5{
+.sec4{
     background-color: $azul;
-    height: 500px;
-    width: 100%;
+    color: $blanco;
+}
+.texto{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: $blanco;
     text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.vision{
+    padding-top: 3rem;
 }
